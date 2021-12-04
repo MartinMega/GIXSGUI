@@ -40,7 +40,7 @@ classdef linefit
         % (Public) Store fitting result
         FitOutput = struct;        
     end % End of public properties
-    properties (SetAccess = private)
+    properties (SetAccess = public)
         % (Private) List of built-in modles
         ModelList = struct;
         % (Private) Peak value and positions ([value, position]) for the initialization for peak-shaped models
